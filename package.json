@@ -1,0 +1,23 @@
+{
+  "name": "degeare.com",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Page",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanDukes/degeare.com.git"
+  },
+  "author": "Dan Dukes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanDukes/degeare.com/issues"
+  },
+  "homepage": "https://github.com/DanDukes/degeare.com#readme"
+}
