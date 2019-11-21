@@ -328,7 +328,8 @@ form button[type="submit"] {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
