@@ -145,6 +145,114 @@ main {
   }
 }
 
+//Contact Page
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+    border: 3px white solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
+        color: set-text-color($secondary-color);
+      }
+    }
+  }
+}
+
+.contact-us-wrapper {
+  max-width: 51rem;
+  margin: 0 auto;
+}
+
+.contact-us-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.contact-us-subtitle {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.contact-us-form {
+  padding: 1rem;
+  display: grid;
+  grid-auto-rows: 2rem;
+  grid-row-gap: 0.5rem;
+}
+
+.contact-us-form label {
+  font-weight: bold;
+}
+
+.contact-us-form label,
+.contact-us-form input {
+  display: block;
+  width: 100%;
+}
+
+.contact-us-form input:focus {
+  outline: none;
+  background: #ece7e7;
+  border-color: $secondary-color;
+}
+
+.contact-us-form input.invalid,
+.contact-us-form select.invalid,
+.contact-us-form.needs-validation :invalid {
+  border: 1px solid red !important;
+  background-color: #ff8e8e;
+}
+
+label[for="name"] {
+  grid-row: 1 / 2;
+}
+
+#name {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+label[for="contact-email"] {
+  grid-row: 3 / 4;
+}
+
+#contact-email {
+  grid-row: 4 / 5;
+}
+
+label[for="subject"] {
+  grid-row: 5 / 6;
+}
+
+#subject {
+  grid-row: 6 / 7;
+}
+
+label[for="message"] {
+  grid-row: 7 / 8;
+}
+
+#message {
+  grid-row: 8/ 13;
+}
+
+form button[type="submit"] {
+  grid-row: 13 / 14;
+}
+
 //Button Styles
 .btn {
   display: block;
