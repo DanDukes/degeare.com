@@ -97,7 +97,7 @@
 body {
   background: #444;
   color: #fff;
-  max-height: 100%;
+  max-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -105,7 +105,8 @@ body {
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    max-height: 100vh; }
     body#bg-img:after {
       content: "";
       position: absolute;
