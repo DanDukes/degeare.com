@@ -10,7 +10,7 @@ body {
   @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
-  max-height: 100%;
+  max-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
