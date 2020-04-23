@@ -14,3 +14,16 @@ export const ProjectTitle = styled.h4`
 export const SkillContainer = styled.div`
   margin-top: 1.2rem;
 `
+export const ProjectImg = styled.img`
+  float:right;
+  margin-right: 50%;
+  @media (max-width: 640px) {
+    margin-right: 0;
+  }
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  :hover {
+    opacity: 0.7;
+  }
+`
