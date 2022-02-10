@@ -12,7 +12,7 @@
     "carbon-components": "^10.11.1",
     "carbon-components-react": "^7.11.1",
     "modali": "^1.2.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-images": "^1.1.3",
